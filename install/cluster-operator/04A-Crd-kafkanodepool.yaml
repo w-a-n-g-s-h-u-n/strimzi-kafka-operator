@@ -118,6 +118,9 @@ spec:
                         class:
                           type: string
                           description: The storage class to use for dynamic volume allocation.
+                        volumeAttributesClassName:
+                          type: string
+                          description: volumeAttributesClassName.
                         deleteClaim:
                           type: boolean
                           description: Specifies if the persistent volume claim has to be deleted when the cluster is un-deployed.
